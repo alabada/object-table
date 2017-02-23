@@ -1,20 +1,23 @@
 <h2>Separate Search</h2>
-<p>Searching by each column</p>
-	<table qs-table 
-	data="data" 
-	headers="Name,Age" 
-	fields="name,age" 
-	search="separate"
-	></table>
+<p>根据每列字段进行查找</p>
+<table qs-table
+       data="data"
+       items-per-page="10"
+       total-items="totalItems"
+       data="data"
+       headers="Name, Age"
+       fields="name, age"
+       search="separate"
+></table>
 <hr>
 
-<!-- CODE -->
-<h3>In template:</h3>
-<textarea ui-codemirror ui-codemirror-opts="editorOptions">
-	<table  qs-table 
-			data="data" 
-			headers="Age, full Name" 
-			fields="age,name" 
-			search="separate">
-	</table>
-</textarea>
+<table qs-table
+       data="data"
+       items-per-page="10"
+       total-items="totalItems"
+       data="data"
+       headers="Name, Age"
+       fields="name, age"
+       search="separate"
+       select="multiply"
+></table>

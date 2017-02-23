@@ -3,8 +3,23 @@
  *
  * gTableTest Description
  */
-angular.module('test', ['qsTable', 'ngRoute', 'ui.codemirror'])
+angular.module('test', ['qsTable', 'ngRoute', 'ui.codemirror', 'ui.bootstrap'])
   .controller('mainController', function ($scope, $routeParams, $location, $timeout) {
+
+    $scope.spreadOrNot = function (e, item) {
+      if ("false" === item.isSpread) {
+        item.isSpread = "true";
+      } else {
+        item.isSpread = "false";
+      }
+
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
+    $scope.setSelect = function () {
+      console.log($scope.report.selectedPerson);
+    }
 
     $scope.state = $routeParams.template;
 
@@ -35,7 +50,6 @@ angular.module('test', ['qsTable', 'ngRoute', 'ui.codemirror'])
       {name: "Nephi", age: 29, money: 100},
       {name: "Enos", age: 34, money: -100}];
     $scope.totalItems = $scope.data.length;
-
 
     $scope.data1 = [
       {
