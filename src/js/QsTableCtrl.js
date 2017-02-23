@@ -1,7 +1,8 @@
 'use strict'
 
-angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$element', '$attrs', '$http', '$compile', '$controller', 'QsTableUtilService', 'SweetAlert',
-  function ($scope, $timeout, $element, $attrs, $http, $compile, $controller, Util, SweetAlert) {
+angular.module('qsTable').controller('QsTableCtrl',
+  ['$scope', '$timeout', '$element', '$attrs', '$http', '$compile', '$controller', 'QsTableUtilService',
+  function ($scope, $timeout, $element, $attrs, $http, $compile, $controller, Util) {
 
     $controller('QsTableSortingCtrl', {$scope: $scope});
     $controller('QsTableResizeCtrl', {$scope: $scope});
@@ -506,7 +507,7 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
     $scope.curPage = 1;
     $scope.jumpToPage = function (curPage) {
       if (typeof curPage == "undefined") {
-        SweetAlert.swal('请输入合适页码!');
+        swal.swal('请输入合适页码!');
         return;
       }
       $scope.currentPage = curPage;
