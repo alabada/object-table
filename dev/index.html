@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>jTable Example</title>
     <link rel="stylesheet" type="text/css" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../build/object-table-style.css">
+    <link rel="stylesheet" type="text/css" href="../build/qs-table-style.css">
     <link rel="stylesheet" type="text/css" href="../build/themes/dark-sky.css">
     <link rel="stylesheet" type="text/css" href="../build/themes/blue-dust.css">
     <link rel="stylesheet" type="text/css" href="../example/css/style.css">
@@ -43,7 +43,7 @@
 <body ng-controller="mainController">
     <div class="col-sm-12">
         <h2>Row custom</h2>
-        <table object-table from-url="http://beta.json-generator.com/api/json/get/DXXROxj" data="exportDataVariable" display="10" search="separate" headers="Name, Eye color, Age,Balance,Company,Home address,Favorite Fruit" fields="name,eyeColor,age,balance,company,address,favoriteFruit" sorting="compound" drag-columns="true" on-edit="logChange($oldValue, $newValue)" on-drag="logDrag($oldOrder, $newOrder)">
+        <table qs-table from-url="http://beta.json-generator.com/api/json/get/DXXROxj" data="exportDataVariable" display="10" search="separate" headers="Name, Eye color, Age,Balance,Company,Home address,Favorite Fruit" fields="name,eyeColor,age,balance,company,address,favoriteFruit" sorting="compound" drag-columns="true" on-edit="logChange($oldValue, $newValue)" on-drag="logDrag($oldOrder, $newOrder)">
             <tbody>
                 <tr>
                     <td editable>{{::item.name}}</td>
@@ -60,7 +60,7 @@
             </tbody>
         </table>
         <h2>Patel</h2> --
-        <table object-table data="dataTeacherSearch" headers="Name, Department, Category" fields="name, department, category">
+        <table qs-table data="dataTeacherSearch" headers="Name, Department, Category" fields="name, department, category">
             <tbody ng-non-bindable>
                 <tr ng-click="$owner.showTeacherDetails(item)">
                     <td>{{item.name.firstName}}&nbsp;{{item.name.middleName}}&nbsp;{{item.name.lastName}}</td>
@@ -74,7 +74,7 @@
             </tbody>
         </table>
         <br>
-        <table object-table from-url="http://beta.json-generator.com/api/json/get/DXXROxj" data="exportDataVariable4" display="10" headers="Name, Eye color, Age,Balance,Company,Favorite Fruit" fields="name,eyeColor,age,balance,company,favoriteFruit" resize="true" drag-columns="true" on-drag="logDrag($oldOrder, $newOrder)">
+        <table qs-table from-url="http://beta.json-generator.com/api/json/get/DXXROxj" data="exportDataVariable4" display="10" headers="Name, Eye color, Age,Balance,Company,Favorite Fruit" fields="name,eyeColor,age,balance,company,favoriteFruit" resize="true" drag-columns="true" on-drag="logDrag($oldOrder, $newOrder)">
             <thead>
                 <tr>
                     <th ng-click="sortBy('name')" ng-class="headerIsSortedClass('Name')" class="sortable" allow-drag>Name</th>
@@ -100,11 +100,11 @@
             </tbody>
         </table>
         <h2>Excell selection</h2>
-        <table object-table class="hover-column" data="data" headers="Age, full Name" fields="age,name" sorting="compound" editable="true" on-edit="logChange($oldValue, $newValue)" search="separate" resize="true" drag-columns="true"></table>
+        <table qs-table class="hover-column" data="data" headers="Age, full Name" fields="age,name" sorting="compound" editable="true" on-edit="logChange($oldValue, $newValue)" search="separate" resize="true" drag-columns="true"></table>
         <!--
 	<h2>Template</h2>
 
-	<table object-table class="hover-column"
+	<table qs-table class="hover-column"
 	data="data"
 	headers="Age, full Name,money"
 	fields="age,name,money"
@@ -125,7 +125,7 @@
 
 <h2>Server Paging (Simple)</h2>
 
-<table  object-table
+<table  qs-table
 		data="simplePagingExample.exData"
 		display="simplePagingExample.limit"
 		headers="Age, full Name"
@@ -148,7 +148,7 @@
 
 <h2>Server Paging (Advanced)</h2>
 
-<table  object-table
+<table  qs-table
 		data="pagingExample.exData"
 		display="pagingExample.limit"
 		headers="Age, full Name"
@@ -175,7 +175,7 @@
 
 <h2>With footer</h2>
 
-<table object-table
+<table qs-table
 data="data"
 headers="Name, Age,Money"
 fields="name,age,money"
@@ -203,7 +203,7 @@ selected-model="report.selectedUser">
 <h2>Excell selection</h2>
 
 <h2>Theme</h2>
-<table  object-table class="hover-column blue-dust"
+<table  qs-table class="hover-column blue-dust"
 from-url = "http://beta.json-generator.com/api/json/get/DXXROxj"
 data = "exportDataVariable"
 headers = "Name, Eye color, Age,Balance,Company,Home address,Favorite Fruit"
@@ -213,7 +213,7 @@ resize="true" >
 
 <h2>Bacis</h2>
 
-<table object-table class="hover-column"
+<table qs-table class="hover-column"
 data="data"
 display="10"
 headers="Age, full Name"
@@ -231,7 +231,7 @@ selected-model="data.selected1"
 
 <h2>Compound sorting</h2>
 
-<table object-table
+<table qs-table
 data="data"
 headers="Full Name,Money, Age"
 fields="name,money,age"
@@ -241,7 +241,7 @@ sorting="compound"
 
 <h2>Separate Search</h2>
 
-<table object-table
+<table qs-table
 data="data"
 headers="Age, full Name"
 fields="age,name"
@@ -252,7 +252,7 @@ search="separate"
 
 <h2>External resource</h2>
 
-<table object-table
+<table qs-table
 from-url="http://beta.json-generator.com/api/json/get/DXXROxj"
 data="exportDataVariable1"
 display="2"
@@ -262,7 +262,7 @@ fields="name, age"
 <div class="row"><hr></div>
 <h2>Editable cells (all)</h2>
 
-<table object-table
+<table qs-table
 from-url = "http://beta.json-generator.com/api/json/get/DXXROxj"
 data = "exportDataVariable2"
 display = "10"
@@ -276,7 +276,7 @@ editable = "true"
 
 <h2>Editable cells (Eye color)</h2>
 
-<table object-table
+<table qs-table
 from-url="http://beta.json-generator.com/api/json/get/DXXROxj"
 data="exportDataVariable3"
 display="10"
@@ -301,7 +301,7 @@ sorting="compound"
 
 <h2>Custom headers pattern</h2>
 
-<table object-table
+<table qs-table
 from-url="http://beta.json-generator.com/api/json/get/DXXROxj"
 data="exportDataVariable5"
 display="10"
@@ -329,7 +329,7 @@ fields="name,eyeColor,age,balance,company,address,favoriteFruit"
 
 <h2>Rows pattern</h2>
 
-<table object-table
+<table qs-table
 from-url="http://beta.json-generator.com/api/json/get/DXXROxj"
 data="exportDataVariable4"
 display="10"
@@ -359,7 +359,7 @@ sorting="compound"
 
 <h2>Custom rows and headers pattern:</h2>
 
-<table object-table
+<table qs-table
 data="data"
 data="exportDataVariable"
 display="10"
@@ -402,7 +402,7 @@ resize="true"
 	<input type="text" ng-model="all" class="form-control" placeholder="all">
 </div>
 <br><br>
-<table object-table
+<table qs-table
 from-url="http://beta.json-generator.com/api/json/get/DXXROxj"
 data="exportDataVariable5"
 display="10"

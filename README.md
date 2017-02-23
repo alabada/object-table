@@ -1,13 +1,8 @@
 Display JSON in Table with AngularJS
-# Is no longer supported...
 =================
-[![Build Status](https://travis-ci.org/ekokotov/object-table.svg)](https://travis-ci.org/ekokotov/object-table)
 
 ## Desription
-This Angular directive enable data representation via tables. It makes possible search, filtering, pagination, compound sorting, editable cells, row templates, etc... 
-Exhibits high performance. Without any dependencies - just pure Angular.
-
-Code licensed under BSD license.
+将在object-table基础上对功能进行扩展
 
 Requirements
 =================
@@ -35,10 +30,6 @@ Feature List
 - support server pagination
 - themes!
 
-## Installing via Bower
-```
-bower install angular-object-table
-```
 
 ## Run examples
 Just run http server form root folder and open in browser example directory: http://localhost:8080/example/
@@ -46,20 +37,20 @@ Just run http server form root folder and open in browser example directory: htt
 ## Using
 
 ```
-<link rel="stylesheet" type="text/css" href="{path to library}/build/object-table-style.css">
+<link rel="stylesheet" type="text/css" href="{path to library}/build/qs-table-style.css">
 
-<script type="text/javascript" src="{path to library}/build/object-table.js"></script>
+<script type="text/javascript" src="{path to library}/build/qs-table.js"></script>
 
 <link rel="stylesheet" type="text/css" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
 ```
 Add dependency:
 ```
-angular.module('yourModule', ['objectTable'])
+angular.module('yourModule', ['qsTable'])
 ```
 
 Example of HTML-markup :
 ```
-<table object-table 
+<table qs-table 
        from-url="http://some-url.com/getData" 
        data="exportDataVariable" 
        display="2" 
@@ -69,8 +60,6 @@ Example of HTML-markup :
        editable="true" 
 ></table>
 ```
-## Examples
-http://ekokotov.github.io/object-table/
 
 ## Atributes
 
@@ -92,11 +81,11 @@ selected-model		 | no		| It exports selected model to controller variable. selec
 resize		 		 | no		| *default: true*. Use column resizing.
 drag-columns		 | no		| *default: false*. It allows to reorder your columns using drag-n-drop.
 
-##Themes
-Please check new 'Dark-sky' and 'Blue-dust' themes:
-http://ekokotov.github.io/object-table/samples.html#/themes
-
 ## Tests (Karma + Jasmine)
 ```
 karma start tests/karma.conf.js
+```
+## install
+``npm install
+
 ```

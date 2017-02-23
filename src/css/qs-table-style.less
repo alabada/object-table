@@ -1,4 +1,4 @@
-.object-table-module {
+.qs-table-module {
 
 	.back-cover{
 		background-color: white;
@@ -78,12 +78,12 @@
 				opacity: .2;
 			}
 			/*.up,.down{
-				&:extend(.object-table-module .object-table  thead>tr>th.sortable:after)
+				&:extend(.qs-table-module .qs-table  thead>tr>th.sortable:after)
 				}*/
 			}
 		}
 
-		.object-table{
+		.qs-table{
 			margin-bottom: 0px;
 			color: gray;
 
@@ -144,7 +144,7 @@
 								margin-top: -4px;
 							}
 							&:after {
-								&:extend(.object-table-module .object-table thead > tr th.sortable:before);
+								&:extend(.qs-table-module .qs-table thead > tr th.sortable:before);
 								content: "\e114";
 								margin-top: 5px;
 							}
@@ -189,7 +189,7 @@
 
 			tfoot{
 				tr{
-					&:extend(.object-table-module .object-table thead>tr);
+					&:extend(.qs-table-module .qs-table thead>tr);
 					cursor: auto;
 				}
 			}

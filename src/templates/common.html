@@ -1,4 +1,4 @@
-<div class="object-table-module">
+<div class="qs-table-module">
 	<div class="col-xs-12 col-sm-6 col-md-8 sorting-container">
 		<div ng-if="sortingType && sort.fields.length">
 			Sorting:
@@ -16,7 +16,7 @@
 
 	<div class="clearfix"></div>
 <div class="back-cover">
-	<table class="table table-responsive table-bordered object-table" ng-mousedown="resizeStart($event)" ng-mouseup="resizeEnd($event)">
+	<table class="table table-responsive table-bordered qs-table" ng-mousedown="resizeStart($event)" ng-mouseup="resizeEnd($event)">
 		<thead ng-if="!customHeader">
 			<tr>
 				<th ng-repeat="head in headers track by $index"
@@ -54,7 +54,7 @@
 	<span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Loading Data...
 </div>
 
-<paging ng-if="paging" data-display="display" count="$filtered.length" class="object-table-paging" ng-hide="dataIsLoading"></paging>
+<paging ng-if="paging" data-display="display" count="$filtered.length" class="qs-table-paging" ng-hide="dataIsLoading"></paging>
 
 <div class="clearfix"></div>
 </div>

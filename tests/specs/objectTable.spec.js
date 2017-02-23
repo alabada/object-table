@@ -25,7 +25,7 @@ describe('Unit: ObjectTableController', function() {
 
   beforeEach(
     inject(function ($rootScope, $compile) {
-      elm = angular.element('<table object-table data="users" headers="' + headers.join(",") + '" fields="' + fields.join(",") + '"></table>');
+      elm = angular.element('<table qs-table data="users" headers="' + headers.join(",") + '" fields="' + fields.join(",") + '"></table>');
       scope = $rootScope.$new();
       scope.users = data;
       scope.fields = fields;
