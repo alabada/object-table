@@ -3,7 +3,7 @@
 *
 * gTableTest Description
 */
-angular.module('test', ['objectTable'])
+angular.module('test', ['qsTable'])
 .controller('mainController', function($scope, $http, $timeout, $q) {
 
   $scope.data = [{name: 'Moroni', age: 50, money: -10},

@@ -91,7 +91,7 @@ fields="name,eyeColor,age,balance,company,address,favoriteFruit"
 </div>
 
 <textarea ui-codemirror ui-codemirror-opts="editorOptionsJS">
-	angular.module('test', ['objectTable']).controller('mainController', function ($scope) {
+	angular.module('test', ['qsTable']).controller('mainController', function ($scope) {
 		/* ... */
 	    $scope.showItem = function(item) {
 	      alert(JSON.stringify(item));

@@ -3,7 +3,7 @@
  *
  * gTableTest Description
  */
-angular.module('test', ['objectTable', 'ngRoute', 'ui.codemirror'])
+angular.module('test', ['qsTable', 'ngRoute', 'ui.codemirror'])
   .controller('mainController', function ($scope, $routeParams, $location, $timeout) {
 
     $scope.state = $routeParams.template;

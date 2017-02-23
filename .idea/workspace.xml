@@ -2,49 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d420ea0c-a9b1-4079-8a2c-c5b7d4045b95" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/object-table-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/object-table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/contenteditableDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/draggableDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/objectTableCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/objectTableFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/objectTablePagingCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/objectTableSortingCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/objectTableUtilService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/pagingDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/paging.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/themes/blue-dust.css" afterPath="$PROJECT_DIR$/build/themes/blue-dust.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/themes/dark-sky.css" afterPath="$PROJECT_DIR$/build/themes/dark-sky.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.html" afterPath="$PROJECT_DIR$/dev/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.html" afterPath="$PROJECT_DIR$/example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/example.js" afterPath="$PROJECT_DIR$/dev/example.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/js/example.js" afterPath="$PROJECT_DIR$/example/js/example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/additional_filters.html" afterPath="$PROJECT_DIR$/example/partials/additional_filters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/basic.html" afterPath="$PROJECT_DIR$/example/partials/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/column_highlighting.html" afterPath="$PROJECT_DIR$/example/partials/column_highlighting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/compound_resize.html" afterPath="$PROJECT_DIR$/example/partials/compound_resize.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/compound_sorting.html" afterPath="$PROJECT_DIR$/example/partials/compound_sorting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/custom_headers.html" afterPath="$PROJECT_DIR$/example/partials/custom_headers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/custom_rows.html" afterPath="$PROJECT_DIR$/example/partials/custom_rows.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/custom_rows_headers.html" afterPath="$PROJECT_DIR$/example/partials/custom_rows_headers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/draggable_headers.html" afterPath="$PROJECT_DIR$/example/partials/draggable_headers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/editable_cells.html" afterPath="$PROJECT_DIR$/example/partials/editable_cells.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/external.html" afterPath="$PROJECT_DIR$/example/partials/external.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/footer_expression.html" afterPath="$PROJECT_DIR$/example/partials/footer_expression.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/other.html" afterPath="$PROJECT_DIR$/example/partials/other.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/pagination.html" afterPath="$PROJECT_DIR$/example/partials/pagination.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/select_multiply.html" afterPath="$PROJECT_DIR$/example/partials/select_multiply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/separate_search.html" afterPath="$PROJECT_DIR$/example/partials/separate_search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/server_paging.html" afterPath="$PROJECT_DIR$/example/partials/server_paging.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/partials/themes.html" afterPath="$PROJECT_DIR$/example/partials/themes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/build.js" afterPath="$PROJECT_DIR$/gulp/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/themes/blue-dust.less" afterPath="$PROJECT_DIR$/src/css/themes/blue-dust.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/themes/dark-sky.less" afterPath="$PROJECT_DIR$/src/css/themes/dark-sky.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/common.html" afterPath="$PROJECT_DIR$/src/templates/common.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/specs/objectTable.spec.js" afterPath="$PROJECT_DIR$/tests/specs/objectTable.spec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/css/object-table-style.less" afterPath="$PROJECT_DIR$/src/css/qs-table-style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/QsTableCtrl.js" afterPath="$PROJECT_DIR$/src/js/QsTableCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/QsTableResizeCtrl.js" afterPath="$PROJECT_DIR$/src/js/QsTableResizeCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/QsTableSortingCtrl.js" afterPath="$PROJECT_DIR$/src/js/QsTableSortingCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/QsTableUtilService.js" afterPath="$PROJECT_DIR$/src/js/QsTableUtilService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/contenteditableDirective.js" afterPath="$PROJECT_DIR$/src/js/contenteditableDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/draggableDirective.js" afterPath="$PROJECT_DIR$/src/js/draggableDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/qsTableDirective.js" afterPath="$PROJECT_DIR$/src/js/qsTableDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/qsTableFilters.js" afterPath="$PROJECT_DIR$/src/js/qsTableFilters.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,21 +27,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/js/example.js">
+      <file leaf-file-name="QsTableUtilService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/QsTableUtilService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+            <state relative-caret-position="725">
+              <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contenteditableDirective.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/contenteditableDirective.js">
+      <file leaf-file-name="QsTableSortingCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/QsTableSortingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,6 +54,8 @@
       <find>object-table</find>
       <find>task</find>
       <find>object</find>
+      <find>objectTable</find>
+      <find>$interpolate</find>
     </findStrings>
     <replaceStrings>
       <replace>qs-table</replace>
@@ -116,7 +86,6 @@
         <option value="$PROJECT_DIR$/example/partials/footer_expression.html" />
         <option value="$PROJECT_DIR$/example/partials/other.html" />
         <option value="$PROJECT_DIR$/example/partials/pagination.html" />
-        <option value="$PROJECT_DIR$/example/partials/select_multiply.html" />
         <option value="$PROJECT_DIR$/example/partials/separate_search.html" />
         <option value="$PROJECT_DIR$/example/partials/server_paging.html" />
         <option value="$PROJECT_DIR$/example/partials/themes.html" />
@@ -130,7 +99,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dev/index.html" />
         <option value="$PROJECT_DIR$/gulp/build.js" />
+        <option value="$PROJECT_DIR$/example/partials/select_multiply.html" />
+        <option value="$PROJECT_DIR$/dev/example.js" />
         <option value="$PROJECT_DIR$/example/js/example.js" />
+        <option value="$PROJECT_DIR$/src/js/contenteditableDirective.js" />
+        <option value="$PROJECT_DIR$/src/js/draggableDirective.js" />
+        <option value="$PROJECT_DIR$/src/js/qsTableDirective.js" />
+        <option value="$PROJECT_DIR$/src/js/QsTableCtrl.js" />
+        <option value="$PROJECT_DIR$/src/js/qsTableFilters.js" />
+        <option value="$PROJECT_DIR$/src/js/QsTableResizeCtrl.js" />
+        <option value="$PROJECT_DIR$/src/js/QsTableSortingCtrl.js" />
+        <option value="$PROJECT_DIR$/src/js/QsTableUtilService.js" />
       </list>
     </option>
   </component>
@@ -229,10 +208,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -744,16 +719,16 @@
       <option name="presentableId" value="Default" />
       <updated>1487837210634</updated>
       <workItem from="1487837212090" duration="2570000" />
-      <workItem from="1487839818925" duration="779000" />
+      <workItem from="1487839818925" duration="2903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3349000" />
+    <option name="totallyTimeSpent" value="5473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -774,13 +749,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23507462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23507462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/partials/select_multiply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/partials/separate_search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -973,14 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/specs/objectTable.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/qs-table-style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1010,21 +970,6 @@
             <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/example.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1092,14 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/js/example.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1108,10 +1045,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/partials/select_multiply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="93" column="29" lean-forward="false" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/js/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/specs/objectTable.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="30" column="84" lean-forward="true" selection-start-line="30" selection-start-column="84" selection-end-line="30" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/contenteditableDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/draggableDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/qsTableDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/qsTableFilters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/QsTableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/QsTableResizeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/QsTableSortingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/QsTableUtilService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding />
         </state>
       </provider>
