@@ -89,3 +89,17 @@ karma start tests/karma.conf.js
 ``npm install
 
 ```
+
+http://svn.geoext.org/ext/3.4.1/examples/grid/grid-plugins.html
+
+## 功能统计
+- 1、表格当行展开功能
+- 2、垂直滚动条、水平滚动条
+- 3、单击当行checkbox，实现复选功能
+- 4、复选后，单击任一行，变成单选功能
+- 5、按shift键实现多选（对按checkbox复选框，该功能无效；多选的行从上一次单击到本次单击之间的所有行）
+- 6、右键菜单 实现编辑功能
+
+
+
+

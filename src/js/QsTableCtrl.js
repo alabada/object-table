@@ -1,5 +1,11 @@
 'use strict'
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 20:00
+ * @Description qsTable指令住控制器
+ */
 angular.module('qsTable').controller('QsTableCtrl',
   ['$scope', '$timeout', '$element', '$attrs', '$http', '$compile', '$controller', 'QsTableUtilService',
   function ($scope, $timeout, $element, $attrs, $http, $compile, $controller, Util) {

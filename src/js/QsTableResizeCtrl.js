@@ -1,5 +1,11 @@
 'use strict';
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 20:02
+ * @Description 拖拽改变表格宽度控制器
+ */
 angular.module('qsTable').controller('QsTableResizeCtrl', ['$scope', function ($scope) {
 
   var resizePressed = false,

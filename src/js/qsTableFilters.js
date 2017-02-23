@@ -1,9 +1,13 @@
 'use strict';
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 20:01
+ * @Description 自定义分页过滤器
+ */
 angular.module('qsTable').filter('offset', function () {
-  /**
-   * 自定义过滤器，实现分页过滤
-   */
+
   return function (input, curPage, itemsPerPage) {
     if (!input) {
       return;

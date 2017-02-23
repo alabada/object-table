@@ -1,5 +1,11 @@
 'use strict'
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 20:00
+ * @Description 拖拽指令
+ */
 angular.module('qsTable').directive('allowDrag', function () {
   return {
     restrict: 'A',

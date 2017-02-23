@@ -1,5 +1,11 @@
 'use strict';
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 20:02
+ * @Description 工具方法
+ */
 angular.module('qsTable').service('QsTableUtilService', [function () {
   // 扩展 Array [+swap]
   Array.prototype.swap = function (newIndex, oldIndex) {

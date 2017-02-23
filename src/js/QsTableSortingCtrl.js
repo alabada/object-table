@@ -1,5 +1,11 @@
 'use strict';
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 20:02
+ * @Description 排序控制器
+ */
 angular.module('qsTable').controller('QsTableSortingCtrl', ['$scope', function ($scope) {
 
   $scope.sort = {

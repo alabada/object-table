@@ -1,5 +1,11 @@
 'use strict'
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 20:01
+ * @Description 主指令qsTable
+ */
 angular.module('qsTable').directive('qsTable', ['$compile', '$interpolate', function ($compile, $interpolate) {
 
   return {

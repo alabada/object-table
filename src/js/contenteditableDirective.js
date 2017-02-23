@@ -1,5 +1,11 @@
 'use strict'
 
+/**
+ * @Author 温枝达
+ * @Email alabadazi@gmail.com
+ * @Date 2017/2/23 19:59
+ * @Description 表格cell编辑功能指令
+ */
 angular.module('qsTable', []).directive('contenteditable', function () {
 
   return {
