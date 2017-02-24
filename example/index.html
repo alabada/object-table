@@ -2,15 +2,15 @@
 <html lang="en" ng-app="test">
 
 <head>
-	<meta charset="UTF-8">
-	<title>qs table Example</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="../build/qs-table-style.css">
-	<link rel="stylesheet" type="text/css" href="../build/themes/blue-dust.css">
-	<link rel="stylesheet" type="text/css" href="../build/themes/dark-sky.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+  <meta charset="UTF-8">
+  <title>qs table Example</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../build/qs-table-style.css">
+  <link rel="stylesheet" type="text/css" href="../build/themes/blue-dust.css">
+  <link rel="stylesheet" type="text/css" href="../build/themes/dark-sky.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
 
 </head>
 <script src="js/angular/angular.min.js"></script>
@@ -37,53 +37,54 @@
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top">
-      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#/">qs-table</a>
-        </div>
+  <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#/">qs-table</a>
+    </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
-          <ul class="nav navbar-nav">
-            <li><a href="https://github.com/alabada/object-table" target="_blank">GitHub project</a></li>
-            <!-- <li><a href="#">Link</a></li> -->
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+      <ul class="nav navbar-nav">
+        <li><a href="https://github.com/alabada/object-table" target="_blank">GitHub project</a></li>
+        <!-- <li><a href="#">Link</a></li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
 
-	<div class="col-md-3">
-		<div class="list-group">
-			<a href="#attributes" class="list-group-item list-group-item-warning">Basic Attributes</a>
-		</div>
-		 <p class="lead">&nbsp;Samples:</p> 
+<div class="col-md-3">
+  <div class="list-group">
+    <a href="#attributes" class="list-group-item list-group-item-warning">Basic Attributes</a>
+  </div>
+  <p class="lead">&nbsp;Samples:</p>
 
-		<div class="list-group">
-			<a href="#basic" class="list-group-item">基本</a>
-			<a href="#compound_sorting" class="list-group-item">Compound sorting</a>
-			<a href="#pagination" class="list-group-item">分页</a>
-			<a href="#separate_search" class="list-group-item">Separate Search</a>
-			<a href="#external" class="list-group-item">External resource</a>
-			<a href="#custom_headers" class="list-group-item">Custom headers</a>
-			<a href="#custom_rows" class="list-group-item">自定义行（行内带子表格;可包含其他数据）</a>
-			<a href="#custom_rows_headers" class="list-group-item">Custom rows and headers</a>
-			<a href="#additional_filters" class="list-group-item">External filters</a>
-			<a href="#editable_cells" class="list-group-item">单元格可编辑</a>
-			<a href="#select_multiply" class="list-group-item">带复选框多选</a>
-			<a href="#column_highlighting" class="list-group-item">Column Highlighting</a>
-			<a href="#compound_resize" class="list-group-item">Resizable columns</a>
-			<a href="#draggable_headers" class="list-group-item">Draggable columns</a>
-			<a href="#footer_expression" class="list-group-item">Aggregate functions in footer</a>
-			<a href="#server-paging" class="list-group-item">Server paging</a>
-			<a href="#other" class="list-group-item">Other...</a>
-		</div>
-		<div class="list-group">
-			<a href="#themes" class="list-group-item list-group-item-success">Themes</a>
-			</div>
-	</div>
+  <div class="list-group">
+    <a href="#extend" class="list-group-item">扩展</a>
+    <a href="#basic" class="list-group-item">基本</a>
+    <a href="#compound_sorting" class="list-group-item">Compound sorting</a>
+    <a href="#pagination" class="list-group-item">分页</a>
+    <a href="#separate_search" class="list-group-item">Separate Search</a>
+    <a href="#external" class="list-group-item">External resource</a>
+    <a href="#custom_headers" class="list-group-item">Custom headers</a>
+    <a href="#custom_rows" class="list-group-item">自定义行（行内带子表格;可包含其他数据）</a>
+    <a href="#custom_rows_headers" class="list-group-item">Custom rows and headers</a>
+    <a href="#additional_filters" class="list-group-item">External filters</a>
+    <a href="#editable_cells" class="list-group-item">单元格可编辑</a>
+    <a href="#select_multiply" class="list-group-item">带复选框多选</a>
+    <a href="#column_highlighting" class="list-group-item">Column Highlighting</a>
+    <a href="#compound_resize" class="list-group-item">Resizable columns</a>
+    <a href="#draggable_headers" class="list-group-item">Draggable columns</a>
+    <a href="#footer_expression" class="list-group-item">Aggregate functions in footer</a>
+    <a href="#server-paging" class="list-group-item">Server paging</a>
+    <a href="#other" class="list-group-item">Other...</a>
+  </div>
+  <div class="list-group">
+    <a href="#themes" class="list-group-item list-group-item-success">Themes</a>
+  </div>
+</div>
 
-	<div class="col-md-9">
-		<div ng-view></div> 
-	</div>
+<div class="col-md-9">
+  <div ng-view></div>
+</div>
 
 </body>

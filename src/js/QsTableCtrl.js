@@ -52,7 +52,7 @@ angular.module('qsTable').controller('QsTableCtrl',
         this.onEdit = $scope.onEdit;
       }
       // 初始化存放被选中条目的模型(是否支持多选)
-      $scope.selectedModel = ($scope.select === 'multiply') ? [] : {};
+      $scope.selectedModel = [];
 
     };
 
@@ -220,7 +220,7 @@ angular.module('qsTable').controller('QsTableCtrl',
       this.bodyTemplate = node.innerHTML;
 
       if ($scope.select === 'multiply') {
-        var customTd = "<td><i class='fa' ng-class=\"{'fa-square-o':'unchecked'==item.isCheckedModel,'fa-square-o ':undefined==item.isCheckedModel, 'fa-check-square-o':'checked'==item.isCheckedModel,  'fa-minus-square-o':'indeterminate'==item.isCheckedModel}\"></i></td>";
+        var customTd = "<td><i class='fa' ng-click='setMulSelected(item, $index, $event)' ng-class=\"{'fa-square-o':'unchecked'==item.isCheckedModel,'fa-square-o ':undefined==item.isCheckedModel, 'fa-check-square-o':'checked'==item.isCheckedModel,  'fa-minus-square-o':'indeterminate'==item.isCheckedModel}\"></i></td>";
         // angular.element($element.find('table tbody tr')[0]).prepend(customTr);
         angular.element($element.find('tbody').children()[0]).prepend(customTd);
       }
@@ -324,19 +324,39 @@ angular.module('qsTable').controller('QsTableCtrl',
     }
 
     /**
+     * 绑定前端界面的单击checkbox
+     * @param item
+     */
+    $scope.setMulSelected = function (item, rowIndex, e) {
+
+      e.preventDefault();
+      e.stopPropagation();
+
+      if (!ctrl._containsInSelectArray(item)) {
+        $scope.selectedModel.push(item);
+      } else {
+        $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
+      }
+
+      ctrl.clickTr(item, rowIndex);
+
+      if (angular.isFunction($scope.setSelect)) { // 执行业务层回调方法
+        $timeout(function () {
+          $scope.setSelect();
+        })
+      }
+    };
+
+    /**
      * 绑定前端界面的单击单行
      * @param item
      */
     $scope.setSelected = function (item, rowIndex) {
-      if ($scope.select === 'multiply') { // 多选
-        if (!ctrl._containsInSelectArray(item)) {
-          $scope.selectedModel.push(item);
-        } else {
-          $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
-        }
-      } else { // 单选
-        $scope.selectedModel = item;
-      }
+      $scope.selectedModel = [];
+      angular.forEach($scope.$filtered, function (item) {
+        item.isCheckedModel = "unchecked";
+      });
+      $scope.selectedModel.push(item);
 
       ctrl.clickTr(item, rowIndex);
 
@@ -406,11 +426,7 @@ angular.module('qsTable').controller('QsTableCtrl',
      */
     $scope.isSelected = function (item) {
       if (!!$scope.selectedModel) {
-        if ($scope.select === 'multiply') {
-          return ctrl._containsInSelectArray(item);
-        } else {
-          return item.$$hashKey == $scope.selectedModel.$$hashKey;
-        }
+        return ctrl._containsInSelectArray(item);
       }
       return false;
     };
@@ -444,36 +460,25 @@ angular.module('qsTable').controller('QsTableCtrl',
       if ("checked" == selectedValue) {
         item.isCheckedModel = "checked";
 
-        if ($scope.select === 'multiply') { // 多选
-          if (!ctrl._containsInSelectArray(item)) {
-            $scope.selectedModel.push(item);
-          } else {
-            // $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
-          }
-        } else { // 单选
-          $scope.selectedModel = item;
+        if (!ctrl._containsInSelectArray(item)) {
+          $scope.selectedModel.push(item);
+        } else {
+          // $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
         }
       } else if ("unchecked" == selectedValue) {
         item.isCheckedModel = "unchecked";
-        if ($scope.select === 'multiply') { // 多选
-          if (!ctrl._containsInSelectArray(item)) {
-            // $scope.selectedModel.push(item);
-          } else {
-            $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
-          }
-        } else { // 单选
-          $scope.selectedModel = item;
+
+        if (!ctrl._containsInSelectArray(item)) {
+          // $scope.selectedModel.push(item);
+        } else {
+          $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
         }
       } else if ("indeterminate" == selectedValue) {
         item.isCheckedModel = "indeterminate";
-        if ($scope.select === 'multiply') { // 多选
-          if (!ctrl._containsInSelectArray(item)) {
-            // $scope.selectedModel.push(item);
-          } else {
-            $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
-          }
-        } else { // 单选
-          $scope.selectedModel = item;
+        if (!ctrl._containsInSelectArray(item)) {
+          // $scope.selectedModel.push(item);
+        } else {
+          $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
         }
       }
 
@@ -544,60 +549,5 @@ angular.module('qsTable').controller('QsTableCtrl',
 
     /* paging [END]*/
 
-    /* 动态表格 [start]*/
-    $scope.$watch(
-      'dynamicFields',
-      function (newValue, oldValue) {
-
-        // header与body改变后，dom重构
-        if ("true" == $scope.dynamicTable) {
-          $scope.dataIsLoading = true;
-          if (newValue != oldValue) {
-            $scope.dataIsLoading = false;
-
-            var table = $element.find('table')
-
-            $element.find('thead').remove();
-            $element.find('tbody').remove();
-
-            // tHead start
-            if ($scope.dynamicHeaders.length > 0) {
-
-              var tHead = '<thead><tr>';
-
-              var headers = Util.getArrayFromParams($scope.dynamicHeaders, 'headers');
-              angular.forEach(headers, function (head, index) {
-                tHead += '<th>' + head;
-                tHead += '</th>';
-              });
-
-              tHead += '</tr></thead>';
-              table.append(tHead);
-            }
-            // tHead end
-
-            // tBody start
-            if ($scope.dynamicFields.length > 0) {
-
-              $scope.fields = Util.getArrayFromParams($scope.dynamicFields, 'fields');
-
-              var tBody = '<tr ng-click="setSelected(item, $index)" ng-repeat="item in $filtered"  ng-class="{\'selected-row\':isSelected(item)}">';
-              tBody += '<td ng-if="select===\'multiply\'"><input type="checkbox" ng-checked="isSelected(item)"></td>';
-              tBody += '<td ng-if="!editable" ng-repeat="field in fields">{{item[field]}}</td>';
-              tBody += '<td ng-if="editable" editable ng-repeat="field in fields">';
-              tBody += '<div contenteditable ng-model="item[field]">{{item[field]}}</div>';
-              tBody += '</td>';
-              tBody += '</tr>';
-
-              table.append(tBody);
-            }
-            // tBody end
-
-            $compile($element.find('table'))($scope);
-          }
-        }
-      }, true);
-
-    /* 动态表格 [end]*/
 
   }]);

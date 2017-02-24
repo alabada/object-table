@@ -1,0 +1,15 @@
+<h2>扩展单选与多选</h2>
+
+<div class="row">
+    <table qs-table
+           data="data"
+           items-per-page="10"
+           total-items="totalItems"
+           headers="Name,Age,Money"
+           fields="name,age,money"
+           select="multiply"
+           set-select="setSelect()"
+           selected-model="report.selectedPerson">
+    </table>
+</div>
+

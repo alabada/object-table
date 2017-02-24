@@ -5,7 +5,7 @@ angular.module('test').config(function ($routeProvider) {
         }).when('/:template', {
             controller:'mainController',
             templateUrl:function(params){
-                return !!params.template ? 'partials/'+ params.template + '.html' : "partials/basic.html";
+                return !!params.template ? 'partials/'+ params.template + '.html' : "partials/extend.html";
             }
         }).when('/',{
              controller:'mainController',

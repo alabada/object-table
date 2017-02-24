@@ -658,6 +658,7 @@ http://svn.geoext.org/ext/3.4.1/examples/grid/grid-plugins.html
 - 4、复选后，单击任一行，变成单选功能
 - 5、按shift键实现多选（对按checkbox复选框，该功能无效；多选的行从上一次单击到本次单击之间的所有行）
 - 6、右键菜单 实现编辑功能
+- 7、double click 暴露一个方法。
 
 
 

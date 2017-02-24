@@ -12,9 +12,12 @@ angular.module('test', ['qsTable', 'ngRoute', 'ui.codemirror', 'ui.bootstrap'])
       } else {
         item.isSpread = "false";
       }
-
       e.preventDefault();
       e.stopPropagation();
+    }
+
+    $scope.setSelect = function () {
+      console.log($scope.report.selectedPerson);
     }
 
     $scope.setSelect = function () {
