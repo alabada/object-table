@@ -4,7 +4,7 @@
 * gTableTest Description
 */
 angular.module('test')
-.controller('serverPagingController', function ($scope, $http,$timeout) {
+.controller('serssverPagingController', function ($scope, $http,$timeout) {
 
 
 /* ### Simple server paging ### */
