@@ -16,9 +16,10 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
 
     var ctrlFlag = false;
     var shiftFlag = false;
+    var lastSelectedItem;
 
     // ctrl:17  shift: 16
-    document.addEventListener('keydown', function(event) {
+    document.addEventListener('keydown', function (event) {
       if (17 == event.keyCode) {
         ctrlFlag = true;
       } else if (16 == event.keyCode) {
@@ -26,7 +27,7 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
       }
     });
 
-    document.addEventListener('keyup', function(event) {
+    document.addEventListener('keyup', function (event) {
       if (17 == event.keyCode) {
         ctrlFlag = false;
       } else if (16 == event.keyCode) {
@@ -378,23 +379,73 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
         } else {
           $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
         }
+
+        ctrl.clickTr(item, rowIndex);
+        lastSelectedItem = item;
       } else if (true == shiftFlag) { // shift按键按下
 
+        var lastSelectedItemIndex = ctrl._indexInFiltered(lastSelectedItem);
+        var itemIndex = ctrl._indexInFiltered(item);
+
+        console.log(lastSelectedItemIndex + ',' + itemIndex)
+
+        if (-1 == lastSelectedItemIndex || -1 == itemIndex) {
+          $scope.selectedModel = [];
+          angular.forEach($scope.$filtered, function (item) {
+            item.isCheckedModel = "unchecked";
+          });
+          $scope.selectedModel.push(item);
+
+          ctrl.clickTr(item, rowIndex);
+          lastSelectedItem = item;
+        } else {
+          var start, end;
+          if (lastSelectedItemIndex < itemIndex) {
+            start = lastSelectedItemIndex;
+            end = itemIndex;
+          } else {
+            start = itemIndex;
+            end = lastSelectedItemIndex;
+          }
+
+          $scope.selectedModel = [];
+          for (var i = 0; i < $scope.$filtered.length; i++) {
+            $scope.$filtered[i].isCheckedModel = "unchecked";
+          }
+          for (var j = start; j <= end; j++) { // 选中两次shift之间的条目
+            var item = $scope.$filtered[j];
+            item.isCheckedModel = "checked";
+            $scope.selectedModel.push(item);
+          }
+        }
       } else { // 正常单击
         $scope.selectedModel = [];
         angular.forEach($scope.$filtered, function (item) {
           item.isCheckedModel = "unchecked";
         });
         $scope.selectedModel.push(item);
-      }
 
-      ctrl.clickTr(item, rowIndex);
+        ctrl.clickTr(item, rowIndex);
+        lastSelectedItem = item;
+      }
 
       if (angular.isFunction($scope.setSelect)) { // 执行业务层回调方法
         $timeout(function () {
           $scope.setSelect();
         })
       }
+    };
+
+    this._indexInFiltered = function (obj) {
+      for (var i = 0; i < $scope.$filtered.length; i++) {
+        var item = $scope.$filtered[i];
+        if (typeof item !== 'undefined' && typeof obj !== 'undefined') {
+          if (item.$$hashKey === obj.$$hashKey) {
+            return i;
+          }
+        }
+      }
+      return -1;
     };
 
     /**
@@ -578,6 +629,5 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
     }
 
     /* paging [END]*/
-
 
   }]);
