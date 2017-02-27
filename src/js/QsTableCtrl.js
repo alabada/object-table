@@ -372,11 +372,21 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
      */
     $scope.setSelected = function (item, rowIndex) {
 
-      $scope.selectedModel = [];
-      angular.forEach($scope.$filtered, function (item) {
-        item.isCheckedModel = "unchecked";
-      });
-      $scope.selectedModel.push(item);
+      if (true == ctrlFlag) { // ctrl按键按下
+        if (!ctrl._containsInSelectArray(item)) {
+          $scope.selectedModel.push(item);
+        } else {
+          $scope.selectedModel.splice($scope.selectedModel.indexOf(item), 1);
+        }
+      } else if (true == shiftFlag) { // shift按键按下
+
+      } else { // 正常单击
+        $scope.selectedModel = [];
+        angular.forEach($scope.$filtered, function (item) {
+          item.isCheckedModel = "unchecked";
+        });
+        $scope.selectedModel.push(item);
+      }
 
       ctrl.clickTr(item, rowIndex);
 
