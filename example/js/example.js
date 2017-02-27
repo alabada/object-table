@@ -3,7 +3,7 @@
  *
  * gTableTest Description
  */
-angular.module('test', ['qsTable', 'ngRoute', 'ui.codemirror', 'ui.bootstrap'])
+angular.module('test', ['qsTable', 'ngRoute', 'ui.codemirror', 'ui.bootstrap', 'ui.bootstrap.contextMenu'])
   .controller('mainController', function ($scope, $routeParams, $location, $timeout) {
 
     $scope.spreadOrNot = function (e, item) {

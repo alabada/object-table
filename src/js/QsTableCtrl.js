@@ -387,8 +387,6 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
         var lastSelectedItemIndex = ctrl._indexInFiltered(lastSelectedItem);
         var itemIndex = ctrl._indexInFiltered(item);
 
-        console.log(lastSelectedItemIndex + ',' + itemIndex)
-
         if (-1 == lastSelectedItemIndex || -1 == itemIndex) {
           $scope.selectedModel = [];
           angular.forEach($scope.$filtered, function (item) {
@@ -629,5 +627,26 @@ angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$ele
     }
 
     /* paging [END]*/
+
+
+    /* 右键菜单 [END]*/
+
+    $scope.menuOptions =[
+      ['编辑', function ($itemScope) {
+        console.log($itemScope.item);
+      }],
+      null,
+      ['删除', function ($itemScope) {
+        console.log($itemScope.item);
+      }],
+      null,
+      ['查看', function ($itemScope) {
+        console.log($itemScope.item);
+      }]
+    ]
+
+    /* 右键菜单 [END]*/
+
+
 
   }]);

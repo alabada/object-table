@@ -42,7 +42,7 @@
             </thead>
 
             <tbody ng-if="!findBody"> <!-- 无自定义行 -->
-                <tr id="rowTr" ng-click="setSelected(item, $index)" ng-class="{'selected-row':isSelected(item)}"> <!-- <= will inject ng-repeat -->
+                <tr id="rowTr" ng-click="setSelected(item, $index)" ng-class="{'selected-row':isSelected(item)}" context-menu="menuOptions"> <!-- <= will inject ng-repeat -->
                     <!-- params: headers and fields -->
                     <td ng-if="select==='multiply'"><i class="fa" ng-click="setMulSelected(item, $index, $event)" ng-class="{'fa-square-o':'unchecked'==item.isCheckedModel, 'fa-check-square-o':'checked'==item.isCheckedModel, 'fa-minus-square-o':'indeterminate'==item.isCheckedModel, 'fa-square-o ':undefined==item.isCheckedModel}"></i></td>
                     <td ng-if="!editable" ng-repeat="field in fields">{{item[field]}}</td>
