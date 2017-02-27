@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92021ea-4a44-4185-ae09-5be77c3e9b80" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example/js/ctrl/serverPagingCtrl.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/qs-table.js" afterPath="$PROJECT_DIR$/build/qs-table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.html" afterPath="$PROJECT_DIR$/example/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/js/example.js" afterPath="$PROJECT_DIR$/example/js/example.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/js/router.js" afterPath="$PROJECT_DIR$/example/js/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/QsTableCtrl.js" afterPath="$PROJECT_DIR$/src/js/QsTableCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/common.html" afterPath="$PROJECT_DIR$/src/templates/common.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,12 +18,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="344">
+              <first_editor relative-caret-position="16500">
                 <caret line="660" column="24" lean-forward="false" selection-start-line="660" selection-start-column="24" selection-end-line="660" selection-end-column="24" />
                 <folding>
                   <marker date="1487908424118" expanded="true" signature="1631:1721" ph="[...]" />
@@ -116,11 +110,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="common.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/common.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="85">
+              <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -129,8 +133,8 @@
       <file leaf-file-name="example.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/js/example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="200">
+              <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -139,8 +143,8 @@
       <file leaf-file-name="QsTableCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/QsTableCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="490" column="7" lean-forward="true" selection-start-line="490" selection-start-column="7" selection-end-line="490" selection-end-column="7" />
+            <state relative-caret-position="-400">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,10 +157,11 @@
       <find>basic</find>
       <find>rowIndex</find>
       <find>setMulSelected</find>
-      <find>setSelected</find>
       <find>ng-class=&quot;{'fa-square-o':'</find>
-      <find>selectedModel</find>
       <find>setParentRowStatus</find>
+      <find>selectedModel</find>
+      <find>setSelected</find>
+      <find>element</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -305,33 +310,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qs-table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qs-table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,6 +568,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -715,6 +703,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -741,47 +735,168 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487902445921</updated>
-      <workItem from="1487902460535" duration="8087000" />
+      <workItem from="1487902460535" duration="11070000" />
+      <workItem from="1488159797525" duration="3792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8087000" />
+    <option name="totallyTimeSpent" value="14862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23240939" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34994808" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23507462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/app-routing.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/app-routing.module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/heroes/heroes.module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/heroes/heroes-routing.module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/heroes/heroes.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/heroes/heroes-routing.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/crisis-center/crisis-center.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/crisis-center/crisis-center.module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/crisis-center/crisis-center-routing.module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/app/crisis-center/crisis-center-routing.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/core/src/application_module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/core/src/application_module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/form_providers.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/form_providers.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/common_module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/common_module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/router/src/router_module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/router/src/router_module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/platform-browser/src/browser.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/platform-browser/src/browser.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/ng_model_group.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/ng_form.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/checkbox_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/range_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/radio_control_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/validators.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/number_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/validators.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/checkbox_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/select_control_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/radio_control_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/number_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/select_multiple_control_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/select_control_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/range_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/ng_form.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/select_multiple_control_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/ng_model_group.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_style.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_plural.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_class.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_switch.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_template_outlet.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_class.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_plural.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_switch.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_style.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/common/src/directives/ng_template_outlet.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_name.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_name.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_name.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_directive.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_name.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_directive.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_directive.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step3/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_directive.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/core/src/application_module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/core/src/application_module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/form_providers.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/form_providers.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/common_module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/common_module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/router/src/router_module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/router/src/router_module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/platform-browser/src/browser.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/platform-browser/src/browser.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/radio_control_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/select_multiple_control_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_model_group.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/checkbox_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_model.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/select_control_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/radio_control_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/range_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_model_group.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/number_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_form.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/select_control_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/default_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_control_status.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/validators.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/checkbox_value_accessor.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/number_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_form.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/validators.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/select_multiple_control_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_control_status.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/ng_model.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/default_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/range_value_accessor.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_style.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_plural.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_class.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_if.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_switch.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_template_outlet.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_for.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_class.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_if.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_plural.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_switch.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_style.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_for.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/common/src/directives/ng_template_outlet.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_name.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_name.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_name.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_directive.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_name.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_directive.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_group_directive.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../../angular2/angular-router/hero-router-step/router-step1/aot/node_modules/@angular/forms/src/directives/reactive_directives/form_control_directive.ngfactory.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -791,82 +906,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example/js/ui-codemirror.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/partials/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/partials/custom_headers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/js/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="107" lean-forward="true" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/partials/extend.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/partials/select_multiply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/js/example.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/partials/custom_rows.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="344">
+          <first_editor relative-caret-position="16500">
             <caret line="660" column="24" lean-forward="false" selection-start-line="660" selection-start-column="24" selection-end-line="660" selection-end-column="24" />
             <folding>
               <marker date="1487908424118" expanded="true" signature="1631:1721" ph="[...]" />
@@ -952,18 +995,204 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/common.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="1100">
           <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/js/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/QsTableCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="490" column="7" lean-forward="true" selection-start-line="490" selection-start-column="7" selection-end-line="490" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/js/ui-codemirror.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/partials/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/partials/custom_headers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="107" lean-forward="true" selection-start-line="7" selection-start-column="107" selection-end-line="7" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/partials/extend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/partials/select_multiply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/partials/custom_rows.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="16500">
+            <caret line="660" column="24" lean-forward="false" selection-start-line="660" selection-start-column="24" selection-end-line="660" selection-end-column="24" />
+            <folding>
+              <marker date="1487908424118" expanded="true" signature="1631:1721" ph="[...]" />
+              <marker date="1487908424118" expanded="true" signature="1735:5750" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="1748:5748" ph="[...]" />
+              <marker date="1487908424118" expanded="true" signature="1777:5747" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="1845:3307" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="1873:3244" ph="[...]" />
+              <marker date="1487908424118" expanded="true" signature="3357:4577" ph="[...]" />
+              <marker date="1487908424118" expanded="true" signature="3371:3768" ph="{&quot;name&quot;: &quot;Moroni&quot;...}" />
+              <marker date="1487908424118" expanded="true" signature="3782:4170" ph="{&quot;name&quot;: &quot;sss&quot;...}" />
+              <marker date="1487908424118" expanded="true" signature="4184:4567" ph="{&quot;name&quot;: &quot;发方法是&quot;...}" />
+              <marker date="1487908424118" expanded="true" signature="4654:4698" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="4736:4799" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="4844:4896" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="4948:5266" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="5124:5210" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="5373:5387" ph="/*...*/" />
+              <marker date="1487908424118" expanded="true" signature="5420:5495" ph="{&quot;readOnly&quot;: 'nocursor'...}" />
+              <marker date="1487908424118" expanded="true" signature="5531:5638" ph="{&quot;readOnly&quot;: 'nocursor'...}" />
+              <marker date="1487908424118" expanded="true" signature="5690:5741" ph="{...}" />
+              <marker date="1487908424118" expanded="true" signature="5866:6108" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="6180:6413" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="6462:6677" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="6730:6943" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="7023:8383" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="7293:8374" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="7302:7459" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="7468:8361" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="7705:7741" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="8310:8351" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="8458:9092" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="8697:9083" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="8706:9070" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="8752:8854" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="8903:9060" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="9011:9046" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="9138:9472" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="9220:9465" ph="..." />
+              <marker date="1487908424118" expanded="false" signature="9272:9285" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="9496:9583" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="9607:9699" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="9727:10153" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="10196:10542" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="10613:11233" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="10924:11224" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="10933:11211" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="11271:11561" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="11624:11945" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="12011:12360" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="12414:13910" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="12701:13519" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="12710:13506" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="12918:12953" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="13177:13198" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="13310:13331" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="13445:13496" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="13531:13901" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="13540:13888" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="13586:13688" ph="..." />
+              <marker date="1487908424118" expanded="false" signature="13741:13776" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="13955:14248" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="14271:15055" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="14576:15046" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="14585:15033" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="14598:14737" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="14750:14882" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="14895:15023" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="15105:15661" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="15329:15502" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="15338:15489" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="15514:15652" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="15523:15639" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="15744:16339" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="16039:16330" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="16048:16317" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="16383:16659" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="16782:17058" ph="..." />
+              <marker date="1487908424118" expanded="true" signature="17178:17454" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/js/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/common.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/QsTableCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

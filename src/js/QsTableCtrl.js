@@ -6,14 +6,33 @@
  * @Date 2017/2/23 20:00
  * @Description qsTable指令住控制器
  */
-angular.module('qsTable').controller('QsTableCtrl',
-  ['$scope', '$timeout', '$element', '$attrs', '$http', '$compile', '$controller', 'QsTableUtilService',
+angular.module('qsTable').controller('QsTableCtrl', ['$scope', '$timeout', '$element', '$attrs', '$http', '$compile', '$controller', 'QsTableUtilService',
   function ($scope, $timeout, $element, $attrs, $http, $compile, $controller, Util) {
 
     $controller('QsTableSortingCtrl', {$scope: $scope});
     $controller('QsTableResizeCtrl', {$scope: $scope});
     var ctrl = this;
     var flag = true;
+
+    var ctrlFlag = false;
+    var shiftFlag = false;
+
+    // ctrl:17  shift: 16
+    document.addEventListener('keydown', function(event) {
+      if (17 == event.keyCode) {
+        ctrlFlag = true;
+      } else if (16 == event.keyCode) {
+        shiftFlag = true;
+      }
+    });
+
+    document.addEventListener('keyup', function(event) {
+      if (17 == event.keyCode) {
+        ctrlFlag = false;
+      } else if (16 == event.keyCode) {
+        shiftFlag = false;
+      }
+    });
 
     // 初始化一些基本参数
     this._init = function () {
@@ -352,6 +371,7 @@ angular.module('qsTable').controller('QsTableCtrl',
      * @param item
      */
     $scope.setSelected = function (item, rowIndex) {
+
       $scope.selectedModel = [];
       angular.forEach($scope.$filtered, function (item) {
         item.isCheckedModel = "unchecked";
